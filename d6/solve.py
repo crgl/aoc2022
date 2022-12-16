@@ -19,7 +19,7 @@ def p2(signal):
         if len(set(signal[i:i+14])) == 14:
             output = i + 14
             break
-    print("P1:", output)
+    print("P2:", output)
 
 if __name__ == '__main__':
     signal = parse_input()
