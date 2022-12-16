@@ -31,7 +31,7 @@ def p2(matches):
         else:
             pass
         total_score += you + 1
-    print("P1:", total_score)
+    print("P2:", total_score)
 
 if __name__ == '__main__':
     matches = parse_input()
