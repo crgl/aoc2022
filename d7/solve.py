@@ -63,7 +63,7 @@ def p2(dir_files, sizes):
     needed_space = 30_000_000
     to_free = needed_space - free_space
     to_delete = 'NOT FOUND'
-    for size, dir_name in dir_sizes:
+    for size, _dir_name in dir_sizes:
         if size >= to_free:
             to_delete = size
             break
